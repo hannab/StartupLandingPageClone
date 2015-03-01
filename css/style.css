@@ -69,6 +69,8 @@ body {
 .top-navigation {
   background-color: white;
   width: 100%;
+  position: fixed;
+  z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -147,4 +149,33 @@ body {
   margin: 3rem auto;
   font-size: 1.125em;
   color: white;
+}
+
+/*********THREE ICON SECTION**********/
+
+.cases {
+
+}
+
+.cases h2 {
+  text-align: center;
+  font-size: 2.75em;
+  margin: 5rem;
+}
+
+.cases img {
+  width: 127px;
+}
+
+.cases ul li {;
+  width: 32%;
+  float: left;
+  display: inline-block;
+  text-align: center;
+}
+
+.cases .caption {
+  margin: 2rem;
+  text-align: center;
+  font-size: 2rem;
 }
