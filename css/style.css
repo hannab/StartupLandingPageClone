@@ -153,8 +153,8 @@ body {
 
 /*********THREE ICON SECTION**********/
 
-.cases {
-
+.cases .content {
+  padding-bottom: 20rem;
 }
 
 .cases h2 {
@@ -167,8 +167,8 @@ body {
   width: 127px;
 }
 
-.cases ul li {;
-  width: 32%;
+.cases li {
+  width: 33.333333%;
   float: left;
   display: inline-block;
   text-align: center;
@@ -178,4 +178,42 @@ body {
   margin: 2rem;
   text-align: center;
   font-size: 2rem;
+}
+
+/************FOOTER************/
+
+.social {
+  text-align: center;
+  border-top: 2px lightgrey solid;
+}
+
+.social h4 {
+  padding-top: 1rem;
+}
+
+.social .icons > li {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid lightgrey;
+  border-radius: 1.25rem;
+  margin: 2rem 5px;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.social .twitter {
+  color: lightblue;
+}
+
+.social .facebook {
+  color: #7A52CC;
+}
+
+.social .instagram {
+  color: #3366FF;
+}
+
+.social p {
+  color: grey;
 }
